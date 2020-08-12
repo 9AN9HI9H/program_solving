@@ -25,7 +25,7 @@ void solve() {
 
 int main() {
     ios_base::sync_with_stdio(false);
-    cin.tie();
+    cin.tie(nullptr);
     solve();
     return 0;
 }

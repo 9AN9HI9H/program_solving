@@ -21,7 +21,7 @@ void solve(int a, int b, int c) {
 
 int main() {
     ios_base::sync_with_stdio(false);
-    cin.tie();
+    cin.tie(nullptr);
     int a, b, c; cin >> a >> b >> c;
     while (a && b && c) {
         solve(a, b, c);
